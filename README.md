@@ -4,7 +4,7 @@ This repository presents the concept, structure, and ethical guidelines for the 
 
 ---
 
-## 🧠 Core Idea
+## Core Idea
 We propose a reproducible, interpretable method for grouping human faces by topological similarity, independent of race, ethnicity, or culture. This enables:
 - Objective formation of phenogroups and phenoclusters
 - Visualization of human morphological diversity as a structured grid
@@ -13,7 +13,7 @@ We propose a reproducible, interpretable method for grouping human faces by topo
 
 ---
 
-## 📐 What is ALMS?
+## What is ALMS?
 **ALMS** builds a hierarchical tree of phenotypes based on the cosine similarity between:
 - Procrustes-aligned landmarks (68-point geometry)
 - Spectral descriptors (Laplace–Beltrami eigenvalues)
@@ -29,7 +29,7 @@ The output is a tree `T`, reproducible and interpretable — forming the basis o
 
 ---
 
-## 🧬 Grid of Phenotypes
+## Grid of Phenotypes
 The tree is projected onto a 2D lattice:
 - **X-axis** — spectral smoothness (λ₁)
 - **Y-axis** — fractal complexity (Dₑ)
@@ -38,7 +38,7 @@ Each cell = phenogroup. Empty cells = predicted but unseen forms.
 
 ---
 
-## 📊 Cognitive & Cultural Layers
+## Cognitive & Cultural Layers
 Overlaid variables:
 - IQ, working memory, creativity
 - HVIC (individualism/collectivism)
@@ -52,7 +52,7 @@ Findings:
 
 ---
 
-## 🧩 Use Cases
+## Use Cases
 - Predictive diagnostics in medicine
 - Adaptive VR/AR and education platforms
 - Cultural evolution modeling
@@ -60,17 +60,17 @@ Findings:
 
 ---
 
-## ⚖️ Ethical Commitments
-- 🔓 Open-source under AIGPL
-- 🛑 Community killswitch built-in
-- 🔄 All simulations tested in reversible sandbox
-- 🧭 Oversight consortium for critical use cases
+## Ethical Commitments
+-  Open-source under AIGPL
+-  Community killswitch built-in
+-  All simulations tested in reversible sandbox
+-  Oversight consortium for critical use cases
 
 > \"The power of AI must remain governed by science — not ideology, profit, or control.\"
 
 ---
 
-## 📎 Contents
+## Contents
 - `whitepaper.pdf` – Full paper
 - `/figures/` – Infographics (grids, trees, graphs)
 - `/notebooks/` – Experimental pseudocode and demos
